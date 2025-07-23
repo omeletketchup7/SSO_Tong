@@ -15,7 +15,7 @@ version
 
 Install:
 1. Clone the repository:
-   git clone https://github.com/omeletketchup7/SSO_Tong.git
-   cd sso-error-handler
+ - git clone https://github.com/omeletketchup7/SSO_Tong.git
+ - cd sso-error-handler
 
 นายภชร พวงสีเคน (ต๋อง)
