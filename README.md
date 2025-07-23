@@ -8,7 +8,7 @@ Features
 - Custom exception send messages.
 - Returns HTTP status 400, 500.
 
-
+version
 - Java 21.0.8 (Recommended)
 - Spring Framework 3.3.9
 - Maven 3.9.11
