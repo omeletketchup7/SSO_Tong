@@ -3,7 +3,6 @@
 this project is about handle error from request. and send error message to response.
 
 Features
-
 - error handling.
 - Custom exception send messages.
 - Returns HTTP status 400, 500.
@@ -14,8 +13,11 @@ version
 - Maven 3.9.11
 
 Install:
-1. Clone the repository:
+Clone the repository:
  - git clone https://github.com/omeletketchup7/SSO_Tong.git
  - cd sso-error-handler
+
+Using Swagger
+http://localhost:8080/apitest/swagger-ui/index.html#/
 
 นายภชร พวงสีเคน (ต๋อง)
