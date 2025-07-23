@@ -1,6 +1,6 @@
 # SSO Project
 
-this project is about handle error from request. and send error message to response.
+this project is about handling error from request. and send error message to response.
 
 Features
 - error handling.
