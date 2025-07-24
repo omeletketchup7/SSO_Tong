@@ -1,6 +1,4 @@
-package sso.test.tong.Model;
-
-import sso.test.tong.entity.SsoEntity;
+package sso.test.tong.model;
 
 public class Res {
     private String responseCode;

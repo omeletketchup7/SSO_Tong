@@ -2,14 +2,9 @@ package sso.test.tong.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import sso.test.tong.DTO.SsoDTO;
-import sso.test.tong.Model.Res;
-import sso.test.tong.Model.SsoModel;
+import sso.test.tong.dto.SsoDTO;
 import sso.test.tong.entity.SsoEntity;
-import io.swagger.v3.oas.annotations.Operation;
-import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.*;
-import sso.test.tong.repository.SsoRepository;
 import sso.test.tong.service.SsoService;
 
 import java.util.List;

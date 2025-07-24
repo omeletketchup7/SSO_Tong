@@ -1,11 +1,8 @@
-package sso.test.tong.Model;
+package sso.test.tong.dto;
 
-import jakarta.persistence.Column;
 
-import java.time.LocalDateTime;
-
-public class SsoModel {
-    private LocalDateTime requestDate;
+public class SsoDTO {
+    private String requestDate;
     private String ssoType;
     private String systemId;
     private String systemName;
@@ -21,12 +18,48 @@ public class SsoModel {
     private String locationMachineNumber;
     private String tokenId;
 
+    public SsoDTO() {}
 
-    public LocalDateTime getRequestDate() {
+    public SsoDTO(
+            String requestDate,
+            String ssoType,
+            String systemId,
+            String systemName,
+            String systemTransactions,
+            String systemPrivileges,
+            String systemUserGroup,
+            String systemLocationGroup,
+            String userId,
+            String userFullName,
+            String userRdOfficeCode,
+            String userOfficeCode,
+            String clientLocation,
+            String locationMachineNumber,
+            String tokenId
+    ) {
+        this.requestDate = requestDate;
+        this.ssoType = ssoType;
+        this.systemId = systemId;
+        this.systemName = systemName;
+        this.systemTransactions = systemTransactions;
+        this.systemPrivileges = systemPrivileges;
+        this.systemUserGroup = systemUserGroup;
+        this.systemLocationGroup = systemLocationGroup;
+        this.userId = userId;
+        this.userFullName = userFullName;
+        this.userRdOfficeCode = userRdOfficeCode;
+        this.userOfficeCode = userOfficeCode;
+        this.clientLocation = clientLocation;
+        this.locationMachineNumber = locationMachineNumber;
+        this.tokenId = tokenId;
+    }
+
+
+    public String getRequestDate() {
         return requestDate;
     }
 
-    public void setRequestDate(LocalDateTime requestDate) {
+    public void setRequestDate(String requestDate) {
         this.requestDate = requestDate;
     }
 
@@ -143,3 +176,4 @@ public class SsoModel {
     }
 
 }
+

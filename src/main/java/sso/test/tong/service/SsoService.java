@@ -5,17 +5,14 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestBody;
-import sso.test.tong.DTO.SsoDTO;
-import sso.test.tong.Model.Res;
-import sso.test.tong.Model.ResData;
-import sso.test.tong.Model.SsoModel;
+import sso.test.tong.dto.SsoDTO;
+import sso.test.tong.model.Res;
+import sso.test.tong.model.ResData;
 import sso.test.tong.entity.SsoEntity;
 import sso.test.tong.repository.SsoRepository;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Date;
 import java.util.List;
 
 @Service

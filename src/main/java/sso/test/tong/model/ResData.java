@@ -1,4 +1,4 @@
-package sso.test.tong.Model;
+package sso.test.tong.model;
 
 public class ResData {
     private String userId;

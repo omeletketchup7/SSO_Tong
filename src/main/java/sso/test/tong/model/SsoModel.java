@@ -1,11 +1,9 @@
-package sso.test.tong.DTO;
-
+package sso.test.tong.model;
 
 import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 
-public class SsoDTO {
-    private String requestDate;
+public class SsoModel {
+    private LocalDateTime requestDate;
     private String ssoType;
     private String systemId;
     private String systemName;
@@ -21,48 +19,12 @@ public class SsoDTO {
     private String locationMachineNumber;
     private String tokenId;
 
-    public SsoDTO() {}
 
-    public SsoDTO(
-            String requestDate,
-            String ssoType,
-            String systemId,
-            String systemName,
-            String systemTransactions,
-            String systemPrivileges,
-            String systemUserGroup,
-            String systemLocationGroup,
-            String userId,
-            String userFullName,
-            String userRdOfficeCode,
-            String userOfficeCode,
-            String clientLocation,
-            String locationMachineNumber,
-            String tokenId
-    ) {
-        this.requestDate = requestDate;
-        this.ssoType = ssoType;
-        this.systemId = systemId;
-        this.systemName = systemName;
-        this.systemTransactions = systemTransactions;
-        this.systemPrivileges = systemPrivileges;
-        this.systemUserGroup = systemUserGroup;
-        this.systemLocationGroup = systemLocationGroup;
-        this.userId = userId;
-        this.userFullName = userFullName;
-        this.userRdOfficeCode = userRdOfficeCode;
-        this.userOfficeCode = userOfficeCode;
-        this.clientLocation = clientLocation;
-        this.locationMachineNumber = locationMachineNumber;
-        this.tokenId = tokenId;
-    }
-
-
-    public String getRequestDate() {
+    public LocalDateTime getRequestDate() {
         return requestDate;
     }
 
-    public void setRequestDate(String requestDate) {
+    public void setRequestDate(LocalDateTime requestDate) {
         this.requestDate = requestDate;
     }
 
@@ -179,4 +141,3 @@ public class SsoDTO {
     }
 
 }
-
